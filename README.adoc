@@ -60,7 +60,7 @@ By default, starter pulls `io.grpc:grpc-netty-shaded`   as transitive dependency
 implementation ('io.github.lognet:grpc-spring-boot-starter:5.2.0') {
   exclude group: 'io.grpc', module: 'grpc-netty-shaded'
 }
-implementation 'io.grpc:grpc-netty:1.71.0' // <1>
+implementation 'io.grpc:grpc-netty:1.76.0' // <1>
 ----
 <1> Make sure to pull the version that matches the release.
 
